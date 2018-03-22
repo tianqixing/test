@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2951078620634357001E39A5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2951078520634357001E39A5 /* MainViewController.m */; };
+		2951078920634417001E39A5 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2951078820634417001E39A5 /* NextViewController.m */; };
+		2951078C206344A9001E39A5 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2951078B206344A9001E39A5 /* ThirdViewController.m */; };
+		29E953422060938E00A4ED55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E953412060938E00A4ED55 /* AppDelegate.m */; };
+		29E953452060938E00A4ED55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E953442060938E00A4ED55 /* ViewController.m */; };
+		29E953482060938E00A4ED55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E953462060938E00A4ED55 /* Main.storyboard */; };
+		29E9534A2060938E00A4ED55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E953492060938E00A4ED55 /* Assets.xcassets */; };
+		29E9534D2060938E00A4ED55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E9534B2060938E00A4ED55 /* LaunchScreen.storyboard */; };
+		29E953502060938E00A4ED55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E9534F2060938E00A4ED55 /* main.m */; };
+		29E9535A2060938E00A4ED55 /* yinpinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E953592060938E00A4ED55 /* yinpinTests.m */; };
+		29E953652060938E00A4ED55 /* yinpinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E953642060938E00A4ED55 /* yinpinUITests.m */; };
+		29E95374206093EE00A4ED55 /* MaskForBleONOView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E95373206093EE00A4ED55 /* MaskForBleONOView.m */; };
+		29E953782060963200A4ED55 /* 请将手指放在锁具指纹识别处再移开，重复放置手指至图标红色充满.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E953752060963200A4ED55 /* 请将手指放在锁具指纹识别处再移开，重复放置手指至图标红色充满.wav */; };
+		29E953792060963200A4ED55 /* 请先长按钥匙上的按钮至钥匙闪烁后松开.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E953762060963200A4ED55 /* 请先长按钥匙上的按钮至钥匙闪烁后松开.wav */; };
+		29E9537A2060963200A4ED55 /* 长按蓝牙设置按钮，保持锁具前灯亮.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E953772060963200A4ED55 /* 长按蓝牙设置按钮，保持锁具前灯亮.wav */; };
+		29E9537D206097AD00A4ED55 /* UIBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E9537C206097AD00A4ED55 /* UIBaseButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29E953562060938E00A4ED55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29E953352060938E00A4ED55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29E9533C2060938E00A4ED55;
+			remoteInfo = yinpin;
+		};
+		29E953612060938E00A4ED55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29E953352060938E00A4ED55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29E9533C2060938E00A4ED55;
+			remoteInfo = yinpin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2951078420634357001E39A5 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2951078520634357001E39A5 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2951078720634417001E39A5 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		2951078820634417001E39A5 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		2951078A206344A9001E39A5 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		2951078B206344A9001E39A5 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		29E9533D2060938E00A4ED55 /* yinpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yinpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E953402060938E00A4ED55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29E953412060938E00A4ED55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29E953432060938E00A4ED55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29E953442060938E00A4ED55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29E953472060938E00A4ED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29E953492060938E00A4ED55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29E9534C2060938E00A4ED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29E9534E2060938E00A4ED55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E9534F2060938E00A4ED55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29E953552060938E00A4ED55 /* yinpinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yinpinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E953592060938E00A4ED55 /* yinpinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yinpinTests.m; sourceTree = "<group>"; };
+		29E9535B2060938E00A4ED55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E953602060938E00A4ED55 /* yinpinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yinpinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E953642060938E00A4ED55 /* yinpinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yinpinUITests.m; sourceTree = "<group>"; };
+		29E953662060938E00A4ED55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E95372206093EE00A4ED55 /* MaskForBleONOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskForBleONOView.h; sourceTree = "<group>"; };
+		29E95373206093EE00A4ED55 /* MaskForBleONOView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskForBleONOView.m; sourceTree = "<group>"; };
+		29E953752060963200A4ED55 /* 请将手指放在锁具指纹识别处再移开，重复放置手指至图标红色充满.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "请将手指放在锁具指纹识别处再移开，重复放置手指至图标红色充满.wav"; sourceTree = "<group>"; };
+		29E953762060963200A4ED55 /* 请先长按钥匙上的按钮至钥匙闪烁后松开.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "请先长按钥匙上的按钮至钥匙闪烁后松开.wav"; sourceTree = "<group>"; };
+		29E953772060963200A4ED55 /* 长按蓝牙设置按钮，保持锁具前灯亮.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "长按蓝牙设置按钮，保持锁具前灯亮.wav"; sourceTree = "<group>"; };
+		29E9537B206097AD00A4ED55 /* UIBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBaseButton.h; sourceTree = "<group>"; };
+		29E9537C206097AD00A4ED55 /* UIBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBaseButton.m; sourceTree = "<group>"; };
+		29E9537E206097D100A4ED55 /* AppComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppComm.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29E9533A2060938E00A4ED55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E953522060938E00A4ED55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E9535D2060938E00A4ED55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E953342060938E00A4ED55 = {
+			isa = PBXGroup;
+			children = (
+				29E9533F2060938E00A4ED55 /* yinpin */,
+				29E953582060938E00A4ED55 /* yinpinTests */,
+				29E953632060938E00A4ED55 /* yinpinUITests */,
+				29E9533E2060938E00A4ED55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29E9533E2060938E00A4ED55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29E9533D2060938E00A4ED55 /* yinpin.app */,
+				29E953552060938E00A4ED55 /* yinpinTests.xctest */,
+				29E953602060938E00A4ED55 /* yinpinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29E9533F2060938E00A4ED55 /* yinpin */ = {
+			isa = PBXGroup;
+			children = (
+				29E953752060963200A4ED55 /* 请将手指放在锁具指纹识别处再移开，重复放置手指至图标红色充满.wav */,
+				29E953762060963200A4ED55 /* 请先长按钥匙上的按钮至钥匙闪烁后松开.wav */,
+				29E953772060963200A4ED55 /* 长按蓝牙设置按钮，保持锁具前灯亮.wav */,
+				29E953402060938E00A4ED55 /* AppDelegate.h */,
+				29E953412060938E00A4ED55 /* AppDelegate.m */,
+				29E953432060938E00A4ED55 /* ViewController.h */,
+				29E953442060938E00A4ED55 /* ViewController.m */,
+				2951078420634357001E39A5 /* MainViewController.h */,
+				2951078520634357001E39A5 /* MainViewController.m */,
+				2951078720634417001E39A5 /* NextViewController.h */,
+				2951078820634417001E39A5 /* NextViewController.m */,
+				2951078A206344A9001E39A5 /* ThirdViewController.h */,
+				2951078B206344A9001E39A5 /* ThirdViewController.m */,
+				29E95372206093EE00A4ED55 /* MaskForBleONOView.h */,
+				29E95373206093EE00A4ED55 /* MaskForBleONOView.m */,
+				29E9537B206097AD00A4ED55 /* UIBaseButton.h */,
+				29E9537C206097AD00A4ED55 /* UIBaseButton.m */,
+				29E9537E206097D100A4ED55 /* AppComm.h */,
+				29E953462060938E00A4ED55 /* Main.storyboard */,
+				29E953492060938E00A4ED55 /* Assets.xcassets */,
+				29E9534B2060938E00A4ED55 /* LaunchScreen.storyboard */,
+				29E9534E2060938E00A4ED55 /* Info.plist */,
+				29E9534F2060938E00A4ED55 /* main.m */,
+			);
+			path = yinpin;
+			sourceTree = "<group>";
+		};
+		29E953582060938E00A4ED55 /* yinpinTests */ = {
+			isa = PBXGroup;
+			children = (
+				29E953592060938E00A4ED55 /* yinpinTests.m */,
+				29E9535B2060938E00A4ED55 /* Info.plist */,
+			);
+			path = yinpinTests;
+			sourceTree = "<group>";
+		};
+		29E953632060938E00A4ED55 /* yinpinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29E953642060938E00A4ED55 /* yinpinUITests.m */,
+				29E953662060938E00A4ED55 /* Info.plist */,
+			);
+			path = yinpinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29E9533C2060938E00A4ED55 /* yinpin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E953692060938E00A4ED55 /* Build configuration list for PBXNativeTarget "yinpin" */;
+			buildPhases = (
+				29E953392060938E00A4ED55 /* Sources */,
+				29E9533A2060938E00A4ED55 /* Frameworks */,
+				29E9533B2060938E00A4ED55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yinpin;
+			productName = yinpin;
+			productReference = 29E9533D2060938E00A4ED55 /* yinpin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29E953542060938E00A4ED55 /* yinpinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E9536C2060938E00A4ED55 /* Build configuration list for PBXNativeTarget "yinpinTests" */;
+			buildPhases = (
+				29E953512060938E00A4ED55 /* Sources */,
+				29E953522060938E00A4ED55 /* Frameworks */,
+				29E953532060938E00A4ED55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29E953572060938E00A4ED55 /* PBXTargetDependency */,
+			);
+			name = yinpinTests;
+			productName = yinpinTests;
+			productReference = 29E953552060938E00A4ED55 /* yinpinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29E9535F2060938E00A4ED55 /* yinpinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E9536F2060938E00A4ED55 /* Build configuration list for PBXNativeTarget "yinpinUITests" */;
+			buildPhases = (
+				29E9535C2060938E00A4ED55 /* Sources */,
+				29E9535D2060938E00A4ED55 /* Frameworks */,
+				29E9535E2060938E00A4ED55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29E953622060938E00A4ED55 /* PBXTargetDependency */,
+			);
+			name = yinpinUITests;
+			productName = yinpinUITests;
+			productReference = 29E953602060938E00A4ED55 /* yinpinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29E953352060938E00A4ED55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = dessmann;
+				TargetAttributes = {
+					29E9533C2060938E00A4ED55 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					29E953542060938E00A4ED55 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29E9533C2060938E00A4ED55;
+					};
+					29E9535F2060938E00A4ED55 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29E9533C2060938E00A4ED55;
+					};
+				};
+			};
+			buildConfigurationList = 29E953382060938E00A4ED55 /* Build configuration list for PBXProject "yinpin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29E953342060938E00A4ED55;
+			productRefGroup = 29E9533E2060938E00A4ED55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29E9533C2060938E00A4ED55 /* yinpin */,
+				29E953542060938E00A4ED55 /* yinpinTests */,
+				29E9535F2060938E00A4ED55 /* yinpinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29E9533B2060938E00A4ED55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E9534D2060938E00A4ED55 /* LaunchScreen.storyboard in Resources */,
+				29E9537A2060963200A4ED55 /* 长按蓝牙设置按钮，保持锁具前灯亮.wav in Resources */,
+				29E9534A2060938E00A4ED55 /* Assets.xcassets in Resources */,
+				29E953782060963200A4ED55 /* 请将手指放在锁具指纹识别处再移开，重复放置手指至图标红色充满.wav in Resources */,
+				29E953482060938E00A4ED55 /* Main.storyboard in Resources */,
+				29E953792060963200A4ED55 /* 请先长按钥匙上的按钮至钥匙闪烁后松开.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E953532060938E00A4ED55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E9535E2060938E00A4ED55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29E953392060938E00A4ED55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E953452060938E00A4ED55 /* ViewController.m in Sources */,
+				2951078620634357001E39A5 /* MainViewController.m in Sources */,
+				2951078C206344A9001E39A5 /* ThirdViewController.m in Sources */,
+				29E953502060938E00A4ED55 /* main.m in Sources */,
+				29E953422060938E00A4ED55 /* AppDelegate.m in Sources */,
+				2951078920634417001E39A5 /* NextViewController.m in Sources */,
+				29E9537D206097AD00A4ED55 /* UIBaseButton.m in Sources */,
+				29E95374206093EE00A4ED55 /* MaskForBleONOView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E953512060938E00A4ED55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E9535A2060938E00A4ED55 /* yinpinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E9535C2060938E00A4ED55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E953652060938E00A4ED55 /* yinpinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29E953572060938E00A4ED55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29E9533C2060938E00A4ED55 /* yinpin */;
+			targetProxy = 29E953562060938E00A4ED55 /* PBXContainerItemProxy */;
+		};
+		29E953622060938E00A4ED55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29E9533C2060938E00A4ED55 /* yinpin */;
+			targetProxy = 29E953612060938E00A4ED55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29E953462060938E00A4ED55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E953472060938E00A4ED55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29E9534B2060938E00A4ED55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E9534C2060938E00A4ED55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29E953672060938E00A4ED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29E953682060938E00A4ED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29E9536A2060938E00A4ED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JLV3YS2CP;
+				INFOPLIST_FILE = yinpin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tian.yinpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29E9536B2060938E00A4ED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JLV3YS2CP;
+				INFOPLIST_FILE = yinpin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tian.yinpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29E9536D2060938E00A4ED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JLV3YS2CP;
+				INFOPLIST_FILE = yinpinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tian.yinpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yinpin.app/yinpin";
+			};
+			name = Debug;
+		};
+		29E9536E2060938E00A4ED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JLV3YS2CP;
+				INFOPLIST_FILE = yinpinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tian.yinpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yinpin.app/yinpin";
+			};
+			name = Release;
+		};
+		29E953702060938E00A4ED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JLV3YS2CP;
+				INFOPLIST_FILE = yinpinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tian.yinpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yinpin;
+			};
+			name = Debug;
+		};
+		29E953712060938E00A4ED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JLV3YS2CP;
+				INFOPLIST_FILE = yinpinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tian.yinpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yinpin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29E953382060938E00A4ED55 /* Build configuration list for PBXProject "yinpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E953672060938E00A4ED55 /* Debug */,
+				29E953682060938E00A4ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E953692060938E00A4ED55 /* Build configuration list for PBXNativeTarget "yinpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E9536A2060938E00A4ED55 /* Debug */,
+				29E9536B2060938E00A4ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E9536C2060938E00A4ED55 /* Build configuration list for PBXNativeTarget "yinpinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E9536D2060938E00A4ED55 /* Debug */,
+				29E9536E2060938E00A4ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E9536F2060938E00A4ED55 /* Build configuration list for PBXNativeTarget "yinpinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E953702060938E00A4ED55 /* Debug */,
+				29E953712060938E00A4ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29E953352060938E00A4ED55 /* Project object */;
+}
